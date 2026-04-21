@@ -12,61 +12,61 @@
             }
 
             :root {
-                --color-oscurisimo: HSL ( 285, 82, 9 ) ;
-                --color-oscuro: HSL ( 285, 80, 18 ) ;
-                --color-normal: HSL ( 285, 74, 37 ) ;
-                --color-iluminado: HSL ( 285, 79, 53 ) ;
-                --color-iluminadisimo: HSL ( 285, 100, 77 ) ; 
+                --color-oscurisimo: #800a49;
+                --color-oscuro: #bf0f6d;
+                --color-normal: deeppink;
+                --color-iluminado: pink;
+                --color-iluminadisimo: lightpink;
             }
 
             body {
                 font-family: Helvetica, Arial, sans-serif;
-                color: var (--color-normal);
+                color: var(--color-normal);
                 text-align: center;
                 font-size: 100%;
             }
             div#contenedor {
-                margin: 1 rem auto;
+                margin: 1rem auto;
                 width: 90%;
-                max-width: 780 px;
+                max-width: 780px;
             }
 
             h1 {
-                margin: 1 rem 0;
+                margin: 1rem 0;
                 font-weight: 400;
-                font-size: calc (100% + 3 vw + 3 vh);
+                font-size: calc(100% + 3vw + 3vh);
             }
 
             h2 {
-                margin: 3 rem 0;
+                margin: 3rem 0;
                 font-weight: 400;
-                letter-spacing: 0.25 rem;
-                font-size: calc (100% + 1 vw + 1 vh);
-                color: var (--color-oscuro);
+                letter-spacing: 0.25rem;
+                font-size: calc(100% + 1vw + 1vh);
+                color: var(--color-oscuro);
             }
 
             input {
-                border: 0.1 rem solid var (--color-iluminado);
-                padding: 0.5 rem 1 rem;
+                border: 0.1rem solid var(--color-iluminado);
+                padding: 0.5rem 1rem;
                 font-family: inherit;
-                font-size: 15 px;
-                color: var (--color-oscuro);
+                font-size: 15px;
+                color: var(--color-oscuro);
                 outline: none;
-                margin-bottom: 1.5 rem;
+                margin-bottom: 1.5rem;
                 width: 100%;
                 display: block;
                 background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-balloon-heart-fill" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8.49 10.92C19.412 3.382 11.28-2.387 8 .986 4.719-2.387-3.413 3.382 7.51 10.92l-.234.468a.25.25 0 1 0 .448.224l.04-.08c.009.17.024.315.051.45.068.344.208.622.448 1.102l.013.028c.212.422.182.85.05 1.246-.135.402-.366.751-.534 1.003a.25.25 0 0 0 .416.278l.004-.007c.166-.248.431-.646.588-1.115.16-.479.212-1.051-.076-1.629-.258-.515-.365-.732-.419-1.004a2 2 0 0 1-.037-.289l.008.017a.25.25 0 1 0 .448-.224l-.235-.468ZM6.726 1.269c-1.167-.61-2.8-.142-3.454 1.135-.237.463-.36 1.08-.202 1.85.055.27.467.197.527-.071.285-1.256 1.177-2.462 2.989-2.528.234-.008.348-.278.14-.386"/></svg>');
                 background-repeat: no-repeat;
-                background-size: 1 rem;
+                background-size: 1rem;
                 background-position: 99% center;
             }
 
             input::placeholder {
-                color: var (--color-iluminado);
+                color: var(--color-iluminado);
             }
 
             input:focus {
-                border-color: var (--color-normal);
+                border-color: var(--color-normal);
             }
 
             div#contenedordetabla {
@@ -78,17 +78,17 @@
                 width: 100%;
                 border-collapse: collapse;
                 text-align: left;
-                margin-bottom: 3 rem;
+                margin-bottom: 3rem;
             }
 
             thead {
-                background: var (--color-iluminado);
+                background: var(--color-iluminado);
             }
 
             td,
             th {
-                border: 1px solid var (--color-normal);
-                padding: 0.75 rem;
+                border: 1px solid var(--color-normal);
+                padding: 0.75rem;
             }
 
             td:nth-child(1),
@@ -101,7 +101,7 @@
     </head>
     <body>
         <div id="contenedor">
-            <h1>𓆩^._.^𓆪ᵐᵘʰᵃʰᵃ</h1>
+            <h1>(っ҂ཀ•)っ</h1>
             <h2>ELECTIVOS DE DISEÑO</h2>
 
             <input type="text" id="elInput" placeholder="Filtrar electivos…" />
@@ -124,7 +124,7 @@
 
         <script>
             const t = document.querySelector("#este");
-            const URL = "https://api.myjson.online/v1/records/36081a9c-0cca-42e6-a59f-2a1d0c51dc59";
+            const URL = "…";
 
             fetch(URL)
                 .then((respuesta) => {
